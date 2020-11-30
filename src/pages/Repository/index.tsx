@@ -104,7 +104,7 @@ const Repository: React.FunctionComponent = () => {
             key={issue.id}
             href={issue.html_url}
             target="_blank"
-            rel="noreferrer"
+            rel="noreferrer noopener"
           >
             <div>
               <strong>{issue.title}</strong>
